@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFAF2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.father {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.satisfaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+    border-radius: 15px;
+    width: 519px;
+    min-height: 471px;
+    margin-right: 58px;
+}
+
+.thankyou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 10px 45px rgba(191, 124, 95, 0.2);
+    border-radius: 15px;
+    width: 402px;
+    min-height: 374px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #212D59;
+}
+
+.satisfaction h1 {
+    margin-bottom: 72px;
+    padding: 55px 97px 0px 97px;
+}
+
+.humor {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0px, 89px;
+    margin-bottom: 85px;
+}
+
+.unhappy img, .neutral img, .satisfied img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.humor p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #212D59;
+    opacity: 0.5;    
+}
+
+.satisfaction a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2F2D2C;
+    border-radius: 5px;
+    padding: 17px 82px;
+    margin-bottom: 55px;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message img {
+    width: 57px;
+    height: 57px;
+    margin-bottom: 15px;
+}
+
+.thankyou h1 {
+    margin-bottom: 15px;
+    padding: 0px, 113px;
+}
+
+.message p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #212D59;
+    margin-bottom: 40px;
+    margin-left: 63px;
+    margin-right: 63px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #212D59;
+    opacity: 0.5;
+    margin-left: 50px;
+}
+
+.feedback a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2F2D2C;
+    border-radius: 5px;
+    padding: 17px 44px;
+    margin-right: 40px;
+}
+
+.closeone {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.closetwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: -24px;
+    margin-right: 24px;
+}

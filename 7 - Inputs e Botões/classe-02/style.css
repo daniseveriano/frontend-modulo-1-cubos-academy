@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    color: #000000;
+    background-image: url(/classe-02/assets/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 739px;
+    padding: 30px 30px 50px 50px;
+}
+
+.share_something {
+    margin-bottom: 45px;
+}
+
+.share_something h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.share_something span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.share {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.input input {
+    all: unset;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F1E1E;
+    width: 100%;
+}
+
+.input input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;    
+}
+
+.input input:focus {
+    background: #FFFFFF;
+    border: 1px solid #272727;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    all: unset;
+    background-color: #9677EF;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: rgba(150, 119, 239, 0.8);
+    box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
+    border-radius: 5px;
+}
+
+.guidelines {
+    margin-right: 20px;
+}
+
+.guidelines h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #494949;
+    margin-bottom: 15px;
+}
+
+.guidelines span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+}
+
+.guidelines a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150.5%;
+    text-decoration-line: underline;
+    color: #9677EF;
+}
+
+.close {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: end;
+}

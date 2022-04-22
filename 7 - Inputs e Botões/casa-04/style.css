@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1C44;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    min-width: 517px;
+    padding: 60px 90px 50px 90px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup h1 {
+    font-family: 'Neuton', serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 54px;
+}
+
+.signup_button button {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B86E6;
+    border-radius: 5px;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+    padding: 5px 72px;
+}
+
+.signup_button button:hover {
+    background-color: #5B86E6;
+    box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+    border-radius: 5px;
+}
+
+.signup_img img {
+    background-color: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.signup span {
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #949495;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.fullname_label label, .email_label label {
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.fullname_input {
+    margin-bottom: 20px;
+}
+
+.email_input {
+    margin-bottom: 25px;
+}
+
+.fullname_input input, .email_input input {
+    all: unset;
+    background-color: #FFFFFF;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 25px 22px;
+    width: 100%;
+}
+
+.fullname_input input::placeholder, .email_input input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949495;
+}
+
+.fullname_input input:focus, .email_input input:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.getbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.getbutton button {
+    all: unset;
+    background-color: #E65B7C;
+    border-radius: 5px;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 21px 123px 20px 123px;
+}
+
+.getbutton button:hover {
+    background-color: #E65B7C;
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+    border-radius: 5px;
+}
+
+.already {
+    display: flex;
+    justify-content: center;
+}
+
+.already span {
+    font-family: 'Neuton', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.already a {
+   color: #5B86E6;
+   text-decoration: none;
+}

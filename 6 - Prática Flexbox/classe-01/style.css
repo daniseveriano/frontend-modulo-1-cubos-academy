@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    font-family: 'Big Shoulders Display', cursive, 'Lexend Deca', sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 50px;
+    color: #F2F2F2;  
+}
+
+.sedans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 307px;
+    background-color: #E28625;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.suvs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 307px;
+    background-color: #006971;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.luxury {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 307px;
+    background-color: #004140;
+    border-radius: 0px 8px 8px 0px;
+    padding: 40px;
+}
+
+img {
+    margin-bottom: 35px;
+}
+
+.sedans img {
+    width: 63.91px;
+    height: 40px;
+}
+
+.suvs img {
+    width: 63.99px;
+    height: 40px;
+}
+
+.luxury img {
+    width: 63.91px;
+    height: 40px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+
+.sedans a {
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 11px 31.5px;
+    margin-right: 73px;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #E28625;
+}
+
+.suvs a {
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 11px 31.5px;
+    margin-right: 73px;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #006971;
+}
+
+.luxury a {
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 11px 31.5px;
+    margin-right: 73px;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #004140;
+}

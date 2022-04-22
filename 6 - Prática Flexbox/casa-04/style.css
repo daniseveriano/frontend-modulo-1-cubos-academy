@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #DADDE1;
+}
+
+.father {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card_one {
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+    min-width: 666px;
+    margin-bottom: 70px;
+    padding: 0px 50px;
+}
+
+.card_two {
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 15px;
+    min-width: 451px;
+    margin-bottom: 59px;
+    padding: 0px 50px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.menu_title,
+.see_all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu_title h1 {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+.see_all a {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+.nearby {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.josh,
+.christer,
+.lise,
+.katrine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    min-width: 135px;
+    margin-bottom: 54px;
+}
+
+.josh_img,
+.christer_img,
+.lise_img,
+.katrine_img {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.josh h2,
+.christer h2,
+.lise h2,
+.katrine h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.add {
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+.add img {
+    width: 19.67px;
+    height: 19.67px;
+}
+
+.second_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 59px;
+}
+
+.second_menu_title {
+    display: flex;
+    flex-direction: row;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+}
+
+.second_menu_title h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 62px;
+}
+
+.number_circle {
+    background-image: url(./assets/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #040405;
+    margin-left: 10px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.lisee,
+.emily,
+.jake,
+.cheryl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.lisee_img,
+.emily_img,
+.jake_img,
+.cheryl_img {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.name_city {
+    margin-left: 20px;
+}
+
+.name_city h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.name_city p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.chat img {
+    width: 34px;
+    height: 34px;
+    margin-left: 131px;
+}
+
+.view {
+    padding: 18px 30px;
+    background-color: #000000;
+    border-radius: 60px;
+    text-align: left;
+    margin-right: 238px;
+    margin-bottom: 48px;
+}
+
+.view a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

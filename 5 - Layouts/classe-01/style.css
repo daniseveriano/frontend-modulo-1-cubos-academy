@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E6EFF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 8px;
+    max-width: 635px;
+    font-family: 'Karla', sans-serif;
+}
+
+.gain_access {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #9AA7BE;
+    min-width: 555px;
+    margin-bottom: 40px;
+    padding: 0px 40px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #2AB3B1;
+    margin-bottom: 24px;     
+    padding: 40px 40px 0px 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #C0DF33;
+    margin-bottom: 11px;
+    padding: 0px 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;    
+    background-color: #2AB3B1;
+}
+
+.left_down {
+    width: 50%;
+    padding: 0px 40px;
+}
+
+.right_down {
+    width: 50%;
+    padding: 0px 40px;
+    background-color: #4ABFBD;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+    padding: 40px 0px 18px 0px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+.period {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-left: 11px;
+}
+
+.full_access {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    padding-top: 4px;
+    padding-bottom: 18px;
+}
+
+.sign_up {
+    padding-top: 26px;
+    text-align: center;
+}
+
+.sign_up a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    text-decoration: none;    
+    padding: 15px 89px 14px 89px;
+    background-color: #C0DF33;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+}
+
+.list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    padding: 0px 0px 40px 0px;
+}

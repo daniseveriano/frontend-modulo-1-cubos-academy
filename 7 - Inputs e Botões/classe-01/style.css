@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9AA6CF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+.form {
+    background-color: #FFFFFF;
+    width: 693px;
+    box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+    border-radius: 10px;
+    margin: 203px 0px;
+    padding: 70px 50px 50px 51px;
+}
+
+.unlimited {
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.title h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.card_label {
+    margin-bottom: 5px;
+}
+
+.card_label label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.card_input {
+    margin-bottom: 20px;
+}
+
+.card_input input {
+    all:unset;
+    background-color: #FFFFFF;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 26px 25px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.card_input input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.date_code {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expiration_label, .security_label {
+    margin-bottom: 5px;
+}
+
+.expiration_label label, .security_label label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.expiration_input, .security_label_input {
+    margin-bottom: 20px;
+}
+
+.expiration_input input, .security_label_input input {
+    all:unset;
+    background-color: #FFFFFF;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 26px 25px;
+    width: 288px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.expiration_input input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.card_input input:focus, .expiration_input input:focus, .security_label_input input:focus {
+    background: #FFFFFF;
+    border: 1px solid #5F82FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.ads p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    all: unset;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5F82FF;
+    border-radius: 5px;
+    padding: 45px 256px;
+}
+
+button:hover {
+    background-color: #093DF3;
+    box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+    border-radius: 5px;
+}
